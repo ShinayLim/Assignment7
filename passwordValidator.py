@@ -4,8 +4,8 @@ while True:
   user_input = input("Enter a password : ")
   is_valid = False
 
-  if (len(user_input) > 15):
-    print("Invalid password! Total characters should be greater than 15")
+  if ((len(user_input) < 8 or len(user_input) > 15)):
+    print("Invalid password! It should contain 8-15 characters.")
     continue
 
   elif not re.search("[A-Z]",user_input):
