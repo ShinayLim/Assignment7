@@ -20,7 +20,7 @@ while True:
     print("Not valid ! It should contain one number between [1-9]")
     continue
 
-  elif not re.search("[~!@#$%^&*]",user_input):
+  elif not re.search("[!@#$%^&*()_+ etc]",user_input):
     print("Not valid ! It should contain at least one special character in [!@#$%^&*()_+ etc]")
     continue
 
