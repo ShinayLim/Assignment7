@@ -15,14 +15,14 @@ for word in split_string:
 for i in user_input:
     if(i == 'a'or i == 'e'or i == 'i'or i == 'o'or i == 'u' or
        i == 'A'or i == 'E'or i == 'I'or i == 'O'or i == 'U' ):
-           vowels = vowels+1
+           vowels = vowels + 1
     else:
-        consonants = consonants+1
+        consonants = consonants + 1
         
-print("Total words : {}".format(word_count))
+print("\nTotal words : {}".format(word_count))
 
 print("\nTotal characters : {}".format(char_count))
 
-print("The number of vowels:",vowels)
+print("\nTotal number of vowels:",vowels)
 
-print("\nThe number of consonant:",consonants)
+print("\nTotal number of consonant:",consonants)
